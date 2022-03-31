@@ -1,0 +1,305 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+    background-color: #FFF8F3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold', sans-serif;;
+}
+
+p {
+    color: rgb(129, 57, 26);
+}
+
+a:link, a:visited {
+    background-color: #1617163d;
+    color: rgb(137, 216, 232);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+.animate {
+    width: 6em
+  } 
+  
+  .animate:hover span {
+    display: none
+  }
+  
+  .text1:hover:before {
+    content: "About"
+  }
+
+  .text2:hover:before {
+    content: "Work"
+  }
+
+  .text3:hover:before {
+    content: "Contact"
+  }
+
+
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat-Black',  sans-serif;
+    font-size: 2.7rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    color:#a56d1e;
+}
+
+/*my intro */
+
+.maintext{
+    font-size: 110px;
+    font-weight: 600;
+}
+
+.text1{
+    margin-top: 100px;
+}
+
+.text3{
+    /* color: rgb(129, 202, 80); */
+    color: #89f17b;
+    font-size: 128px;
+    font-weight: 580;
+}
+
+
+/* Containers  */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.bg-dark{
+    background-color: #a56d1e;
+}
+
+/* sections */
+
+.intro-box {
+    background-color: rgba(0, 0, 0);
+    color: #fff;
+}
+
+.colored-section{
+    background-color: #FFF8F3;
+}
+
+.white-section {
+background-color: #FFF8F3;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+.nav-item {
+    padding: 10px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 18%;
+    text-align: left;
+
+}
+
+/* Title image */
+
+.title-image {
+    margin-top: 120px;
+    margin-right: 0px;
+    width: 80%;
+    position: absolute;
+    /* z-index: 0; */
+    left: 30%;
+}
+
+
+
+/* Features */
+
+.fas { 
+    color: #a56d1e;
+    margin-bottom: 1rem;
+}
+.fab  { 
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+#features {
+    position: relative;
+    /* z-index: 1; */
+    
+}
+
+
+.feature-title {
+    font-size: 1.5rem;
+    color: rgb(161, 93, 29);
+}
+
+
+.fas:hover {
+    color: #65ec82;
+}
+
+.slideIcon:hover{
+    color: #fff;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+/* My Work - Section  */
+
+.card-columns{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card-text{
+    color: rgb(255, 250, 250);
+}
+
+.work-sect{
+    background-color: #FFF8F3;
+}
+
+#works {
+    padding: 100px;
+    
+}
+
+
+.works-coloumn {
+    padding: 3% 2%;
+}
+
+
+.work-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.white-section{
+    background-color:#FFF8F3;
+}
+
+.work_img{
+    width: 40%;
+}
+
+.card-box{
+    background-color: violet;
+}
+
+/* Achievement section */
+
+.card{
+    background-color: #F3E9DD;
+    size: 100px;
+}
+
+.mid-collapse{
+    background-color: #F3E9DD;
+}
+
+.achievement-box{
+    background-color: #F3E9DD;
+}
+
+/*---- Footer Section ---- */
+#footer, #cta{
+    background-color: rgb(0, 0, 0);
+    color: rgb(129, 202, 80);
+}
+
+.footer-icon {
+    color: rgb(255, 255, 255);
+    margin: 20px 10px;
+}
+
+.footer-icon:hover{
+    color: rgb(129, 202, 80);
+}
+
+/* Update for Mobile and Tablet size. */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+
+} 
+
+
+/* .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  } */
+
+
+/* ----------------------  MOUSE EFFECT  ------------------------------------- */

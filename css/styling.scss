@@ -1,0 +1,53 @@
+$cursor-size: 0.5rem;
+
+* { 
+	cursor: none;
+	box-sizing: border-box;
+}
+
+html { text-rendering: antialiased; }
+
+body {
+	background: url("images/back.jpg");
+	margin: 0; 
+	min-height: 200vh;
+	font-family: sans-serif;
+}
+
+
+nav { width: 100%; padding: 1rem; position: fixed; }
+
+.a { 
+	display: inline-block; 
+	color: #fff; 
+	padding: 1rem;
+	margin-right: 1rem;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 0.5rem;
+	text-transform: uppercase;
+	transition: background 0.3s ease, color 0.3s ease;
+	
+	&:hover { cursor: pointer; }
+	&:hover ~ .cursor { transform: translate(-50%, -50%) scale(5); opacity: 1; }
+}
+
+span {
+	display: inline-block;
+	pointer-events: none;
+	transition: transform 0.1s linear;
+}
+
+
+.cursor { 
+	pointer-events: none;
+	position: fixed; top: - $cursor-size; left: -$cursor-size;
+	padding: $cursor-size;
+	background-color: #fff;
+	border-radius: 50%; 
+	transform: translate(-50%, -50%);
+	mix-blend-mode: difference;
+	transition: transform 0.3s ease, opacity 0.3s ease;
+	
+	&.has-hover { transform: translate(-50%, -50%) scale(4); opacity: 0.3; }
+}
