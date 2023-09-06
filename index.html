@@ -36,14 +36,14 @@
       <div class="row">
         <div class= "col-lg-6">
           <h1 class = "maintext">
-            <div class="text-color-white hide-text-block">
-              <div class="animate text1"><span>Hello.</span></div>
+            <div class="text-color-red hide-text-block">
+              <div class="animate text2"><a href="#work"><span>Hello.</span></a></div>
+              </div>
+            <div class="text-color-red hide-text-block">
+            <div class="animate text2"><a href="#about"><span>I am</span></a></div>
             </div>
             <div class="text-color-red hide-text-block">
-              <div class="animate text2"><span>I am</span></div>
-            </div>
-            <div class="text-color-red hide-text-block">
-              <div class="animate text3"><span>Priya</span></div>
+              <div class="animate text3"><a href="#contact"><span style="color: #c0acac;">Priya</span></a></div>
             </div>
           </h1>
           <!-- <button type="button" class="btn btn-dark btn-lg download-btn"> <a href="mailto: sachinmishra030@gmail.com"> Say Hello </a> </button> -->
@@ -55,128 +55,209 @@
       </div>
     </div>
   </section>
-
-</div>
  
   <!-- My Work -->
 
-<section class="works-section">
-  <div class="work-div">
+  <section class="works-section" id="work">
+    <div class="work-div">
+      <div class = "card-columns">
 
-    <div class = "card-columns">
+        <div class="card text-white mb-3" style="max-width: 18rem; background-color: #000000;">
+          <div class="card-header text-white">Static Web Development</div>
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://priiiya3.github.io/TinDog/">TinDog</a></h5>
+            <p class="card-text text-white" >Created a static front-end of a website, used the external CSS to style the different segments of contents of website like divisions, sections, headers, etc.
+            </p>
+          </div>
+        </div>
 
-      <div class="card text-white bg-success mb-3" style="max-width: 18rem; background-color: #361500;">
-        <div class="card-header">Static Web Development</div>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://priiiya3.github.io/TinDog/">TinDog</a></h5>
-          <p class="card-text text-white" >Created a static front-end of a website, used the external CSS to style the different segments of contents of website like divisions, sections, headers, etc.
-          </p>
+        <div class="card  mb-3" style="max-width: 18rem; background-color: #c0acac;">
+          <div class="card-header">Dynamic Web Development</div>
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://priiiya3.github.io/Simon/">Simon Game</a></h5>
+            <p class="card-text">Created a dynamic website using bootstrap and the javascript, used jquery to perform standardize interactions between the js and html elements.</p>
+          </div>
+        </div>
+
+        <div class="card text-white mb-3" style="max-width: 18rem; background-color: #000000;">
+          <div class="card-header text-white">Python Development</div>
+          <div class="card-body">
+            <h5 class="card-title"><a href = "https://github.com/priiiya3/ML-Projects/tree/master/distraction%20detection" >Distraction Detector</a></h5>
+            <p class="card-text text-white">used various python libraries such as opencv, numpy, tkinter etc for building a drowsiness detection system, used haar cascade xml files for face detection.</p>
+          </div>
+        </div>
+
+        </div>
+
+        <img src="images/girlsitting.png" class="work_img" alt="picture">
+      </div>
+
+      <!-- row-2 -->
+
+      <div class = "card-columns">
+
+        <div class="card mb-3" style="max-width: 18rem; background-color: #c0acac;">
+          <div class="card-header">Open CV</div>
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://github.com/priiiya3/ML-Projects/tree/master/Face%20Detection">Face Detection</a></h5>
+            <p class="card-text">Used mediapipe's dlib for human's front face detection, detects 76 different landmarks of human face, draws rectangular box around detected faces and shows accuracy of detection along with FPS.</p>
+          </div>
+        </div>
+        <div class="card text-white mb-3" style="max-width: 18rem; background-color: #000000;">
+          <div class="card-header text-white">Machine Learning</div>
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://github.com/priiiya3/ML-Projects/tree/master/Traffic%20Violation%20System">Traffic Light Violation</a></h5>
+            <p class="card-text text-white">Developed traffic light violation system, used pre-trained MobileNet-SSD model for object detection, takes the real time video as input, detect the red signal, creates alert when driver violates red signal.</p>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 18rem; background-color: #c0acac;">
+          <div class="card-header">Artificial Intelligence</div>
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://github.com/priiiya3/ML-Projects/tree/master/Lane%20Detection">Lane Detection</a></h5>
+            <p class="card-text">Developed a lane detection model for ego vehicles, used Gradient filter with Sobel Operator to eliminate nearly horizontal lines and implemented curve fitting with sliding-windows to detect lane lines.</p>
+          </div>
         </div>
       </div>
-
-      <div class="card text-white bg-success mb-3" style="max-width: 18rem; background-color: #361500;">
-        <div class="card-header">Dynamic Web Development</div>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://priiiya3.github.io/Simon/">Simon Game</a></h5>
-          <p class="card-text">Created a dynamic website using bootstrap and the javascript, used jquery to perform standardize interactions between the js and html elements.</p>
-        </div>
-      </div>
-
-      <div class="card text-white bg-success mb-3" style="max-width: 18rem; background-color: #361500;">
-        <div class="card-header">Python Development</div>
-        <div class="card-body">
-          <h5 class="card-title"><a href = "https://github.com/priiiya3/ML-Projects/tree/master/distraction%20detection" >Distraction Detector</a></h5>
-          <p class="card-text">used various python libraries such as opencv, numpy, tkinter etc for building a drowsiness detection system, used haar cascade xml files for face detection.</p>
-        </div>
-      </div>
-
-      </div>
-
-      <img src="images/girlsitting.png" class="work_img" alt="picture">
     </div>
 
-    <!-- row-2 -->
-
-    <div class = "card-columns">
-
-      <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
-        <div class="card-header">Open CV</div>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://github.com/priiiya3/ML-Projects/tree/master/Face%20Detection">Face Detection</a></h5>
-          <p class="card-text">Used mediapipe's dlib for human's front face detection, detects 76 different landmarks of human face, draws rectangular box around detected faces and shows accuracy of detection along with FPS.</p>
-        </div>
-      </div>
-      <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
-        <div class="card-header">Machine Learning</div>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://github.com/priiiya3/ML-Projects/tree/master/Traffic%20Violation%20System">Traffic Light Violation</a></h5>
-          <p class="card-text">Developed traffic light violation system, used pre-trained MobileNet-SSD model for object detection, takes the real time video as input, detect the red signal, creates alert when driver violates red signal.</p>
-        </div>
-      </div>
-      <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
-        <div class="card-header">Artificial Intelligence</div>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://github.com/priiiya3/ML-Projects/tree/master/Lane%20Detection">Lane Detection</a></h5>
-          <p class="card-text">Developed a lane detection model for ego vehicles, used Gradient filter with Sobel Operator to eliminate nearly horizontal lines and implemented curve fitting with sliding-windows to detect lane lines.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</section>
+  </section>
 
 <!-- Achievement Section -->
-  <section class = "collapse-section">
-
-    <div class="container-fluid achievement-box">
-
-      <h3 class="big-heading">My Achievements</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Res enim se praeclare habebat, et quidem in utraque parte. Quamquam haec quidem praeposita recte et reiecta dicere licebit. Et harum quidem rerum facilis est et expedita distinctio. 
-        Quamquam ab iis philosophiam et omnes ingenuas disciplinas habemus;</p>
-    </div>
+  <section class = "collapse-section" id="about">
 
     <div class="accordion" id="accordionExample">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h2 class="mb-0">
-            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              EXPERIENCE
-            </button>
-          </h2>
-        </div>
-    
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      
+      <!-- My Work Experience -->
+      <section class="work-experience ">
+        <h2>Work Experience</h2>
+      
+        <div class="card-container">
+          <!-- Data Science Intern -->
+          <div class="card">
+            <div class="card-header">
+              Data Science Intern at Edvak Inc
+            </div>
+            <div class="card-content">
+              <p>Feb, 2023 - Jun, 2023</p>
+              <ul>
+                <li>Worked on Darwin project developing an AI assistant with interactive UI.</li>
+                <li>Integrated EHR database records of patients using Deep Learning models.</li>
+                <li>Used Python, Selenium, PyTorch, HuggingFace, FastAPI, NLP, LLM, Prompting, Tensorflow.</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- Summer Intern -->
+          <div class="card">
+            <div class="card-header">
+              Summer Intern at RedCarpetUp
+            </div>
+            <div class="card-content">
+              <p>May, 2022 - Jun, 2022</p>
+              <ul>
+                <li>Focused on credit and tax management systems.</li>
+                <li>Automated user database updates with Python scripting.</li>
+                <li>Optimized databases using SQL queries.</li>
+                <li>Used Postman, RestAPI, MySQL, Docker, Flask, Linux, SQLite3.</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- SDE Intern -->
+          <div class="card">
+            <div class="card-header">
+              SDE Intern at Unicorn Vision
+            </div>
+            <div class="card-content">
+              <p>Nov, 2021 - May, 2022</p>
+              <ul>
+                <li>Worked on development of ML models for detecting lanes, change in lanes, suggestions for making turns.</li>
+                <li>Implemented real-time collision detection using multilayer perceptron.</li>
+                <li>Used OpenCV, Numpy, Tkinter, Haar Cascade, PIL, Threading, scipy, boto3, Vue.js, Tailwind CSS.</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card mid-collapse">
-        <div class="card-header" id="headingTwo">
-          <h2 class="mb-0">
-            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              PROGRAMMING HANDLES
-            </button>
-          </h2>
+      </section>
+      
+
+  <section class="collapse-section" style="background-color: #ffffff;">
+
+  <!-- Programming profiles section -->
+    <div class="coding-profiles">
+      <h2>My Coding Profiles</h2>
+      <ul class="profile-list">
+        <li class="profile-item">
+          <a href="https://www.hackerrank.com/priiiya003">
+            <img src="images/hackerRank.png" alt="HackerRank">
+            <span>HackerRank</span>
+          </a>
+        </li>
+        <li class="profile-item">
+          <a href="https://github.com/priiiya3">
+            <img src="images/github.png" alt="GitHub">
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li class="profile-item">
+          <a href="https://www.linkedin.com/in/priya-singh-042002194/">
+            <img src="images/linkedIn.png" alt="LinkedIn">
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li class="profile-item">
+          <a href="https://leetcode.com/priiiya/">
+            <img src="images/leetcode.png" alt="Leetcode">
+            <span>Leetcode</span>
+          </a>
+        </li>
+        <li class="profile-item">
+          <a href="https://auth.geeksforgeeks.org/user/priiiya003/practice/">
+            <img src="images/gfg.png" alt="geeksforgeeks">
+            <span>GFG</span>
+          </a>
+        </li>
+        <li class="profile-item">
+          <a href="https://codeforces.com/profile/priyasingh3709">
+            <img src="images/codeforces.png" alt="Code Forces">
+            <span>codeforces</span>
+          </a>
+        </li>
+      </ul>
+    </div> 
+        
+  </section>
+
+        <!-- Accomplishments section -->
+
+      <div class="">
+        <div class="card-header btn-brown" id="headingThree">
+          <button id="accomplishmentsButton" class="btn collapsed btn btn-lg btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h5 class="text-white "><span class="accomplishments-text">Hover to See My Accomplishments</span></h5>
+          </button>
         </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h2 class="mb-0">
-            <button class="btn bg-success collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            ACCOMPLISHMENTS    
-            </button>
-          </h2>
-        </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
+            
+        <div id="collapseThree" class="" aria-labelledby="headingThree">
+          
+            <div class="accomplishments text-white">
+              <ul style="list-style-type: none;">
+                <li>
+                  <p>SIH (Smart India Hackathon) 2022 Finalist for software domain problem: Interpretation of groundwater isotope data.</p>
+                </li>
+                <li>
+                  <p>Secured 1872 global rank out of 37398 contestants in the qualification round of Google Code Jam 2021.</p>
+                </li>
+                <li>
+                  <p>Secured 4675 global rank out of 15000+ contestants in the Code Jam to I/O for Women 2021.</p>
+                </li>
+                <li>
+                  <p>Secured 3013 in the preliminary round of ACM-ICPC 2020 International Collegiate Programming Contest.</p>
+                </li>
+                <li>
+                  <p>Solved 700+ problems on different coding platforms profiles of which mentioned above.</p>
+                </li>
+              </ul>
+            </div>
         </div>
       </div>
     </div>
@@ -184,13 +265,11 @@
 
   <!-- Call to Action -->
 
-  <section class="colored-section" id="cta">
+  <section class="colored-section" id="Contact">
 
     <div class="container-fluid">
-
       <h3 class="big-heading">Thank You For Visiting</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Res enim se praeclare habebat, et quidem in utraque parte. Quamquam haec quidem praeposita recte et reiecta dicere licebit. Et harum quidem rerum facilis est et expedita distinctio. 
-        Quamquam ab iis philosophiam et omnes ingenuas disciplinas habemus;</p>
+        <p class="text-white">Your support and interest mean the world to me. I'm passionate about technology, innovation, and the endless possibilities they bring. If you'd like to connect, collaborate, or simply say hello, feel free to reach out through the links below. Let's embark on this exciting journey together!</p>
     </div>
   </section>
 
@@ -202,10 +281,12 @@
       <a href="https://www.linkedin.com/in/priya-singh-042002194/"> <i class="footer-icon fab fa-linkedin fa-2x"></i> </a>   
       <a href="https://github.com/priiiya3"> <i class="footer-icon fab fa-github fa-2x"></i> </a>
       <a href="mailto:priyasingh3709@gmail.com"> <i class="footer-icon fas fa-envelope fa-2x"></i> </a>
-      <p>© Copyright @ 2022 Priya </p>
+      <p>© Copyright @ <span id="currentYear"></span> Priya </p>
     </div>
   </footer>
 
+  <!-- script to include JS file -->
+  <script src="app.js"></script>
 
 </body>
 
