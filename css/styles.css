@@ -98,10 +98,6 @@ a:link, a:visited {
     background-color: #c0acac;
 }
 
-.white-section {
-background-color: #FFF8F3;
-}
-
 
 /* Title Section */
 
@@ -205,10 +201,6 @@ background-color: #FFF8F3;
 .work-text {
     font-size: 3rem;
     line-height: 1.5;
-}
-
-.white-section{
-    background-color:#FFF8F3;
 }
 
 .work_img{
@@ -320,17 +312,6 @@ background-color: #FFF8F3;
   background-color: #000000;
 }
 
-/* .accomplishments-text:hover:before {
-  content: "ACCOMPLISHMENTS"
-}
-.animate-accom{
-  width: auto;
-} */
-#accomplishmentsButton:hover .accomplishments-text span::before {
-  content: "Accomplishments";
-  color: #fff; /* You can adjust the color as needed */
-}
-
 .accomplishments {
     background-color: #000000;
     padding: 20px;
@@ -376,6 +357,7 @@ background-color: #FFF8F3;
   }
   
   .profile-item {
+    background-color:#e8d1a424;
     margin: 0 20px;
     transition: transform 0.3s ease-in-out;
   }

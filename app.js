@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  accomplishmentsButton.addEventListener("mouseleave", function () {
+  accomplishmentsButton.addEventListener("mouseenter", function () {
     if (accomplishmentsCollapse.classList.contains("show")) {
       accomplishmentsButton.click(); // Simulate a click event to close the collapse
     }
